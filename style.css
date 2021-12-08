@@ -1,0 +1,1071 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style-type: none;
+}
+.header_content {
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.header_top {
+	display: flex;
+}
+#logo {
+margin: 12px 16.8% 0 20.62%;
+}
+#IconForLitleViewport{
+	display: none;
+}
+#menu_wrapper {
+	flex-grow: 1;
+}
+#main_menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 555px;
+}
+#main_menu > li {
+	transition: 1s all 0.5s ease-in-out;
+	min-height: 65px;
+	display: flex;
+	align-items: center;
+}
+#main_menu > li >span{
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: 900;
+	letter-spacing: 1.2px;
+	padding: 0 15px;
+	font-family: 'Dosis';
+}
+#main_menu>li:hover{
+	border-bottom: 2px solid rgb(231, 76, 60);
+	cursor: pointer;
+}
+.after::after{
+	content: "";
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background: url(2.png);
+} 
+.after{
+	padding-right:15px ;
+}
+.header_bottom{
+	max-width: 1920px;
+}
+#Tony_Horton{
+	width:100%;
+	height: 904px;
+	background: url(Layer.png) 0 -65px/ 1920px 969px no-repeat ;
+}
+#three_white_blocks{
+	max-width: 1140px;
+	background-color: white;
+	margin: -7.3% 0 0 20.65%;
+	display: flex;
+}
+#three_white_blocks>div{
+	display: flex;
+}
+#left{
+	width: 32.8%;
+	box-shadow: -15px  15px 15px rgba(190, 190,190, 0.3);
+}
+#left > img{
+	width: 77px;
+	height: 74px;
+	margin: 29.5% 0 27.8% 12.5%;
+} 
+#left>div{
+	margin: 29.5% 0 0 9%;
+}
+#center{
+	width: 30.3%;
+	box-shadow: 0 15px 15px 15px rgba(190, 190,190, 0.3);
+}
+#right{
+	width: 37.1%;
+	box-shadow: 10px 10px 15px 15px rgba(190, 190,190, 0.3);
+}
+#three_white_blocks>div>div>p:nth-child(1){
+	font-size: 18px;
+	font-family: 'RobotoCondensed';
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 29px;
+	letter-spacing: 0.8px;
+} 
+#three_white_blocks>div>div>p:nth-child(2){
+	font-family: 'RobotoCondensed';
+	font-size: 14px;
+	font-weight: 700;
+	color:rgb(231, 71, 60);
+	text-transform: uppercase;
+	letter-spacing: 0.7px;	
+}
+#left>div>p:nth-child(2){
+	margin: 15px 0 0 1px;
+}
+#right > img{
+	width: 97px;
+	height: 68px;
+	margin: 25.5% 0 0 8.5%;
+}
+#right>div>p:nth-child(1){
+	margin: 45% 0 0 12%;
+} 
+#right>div>p:nth-child(2){
+	margin: 7% 0 0 13%;
+} 
+.main_content{
+	max-width: 1920px;
+	font-family: 'RobotoCondensed';
+}
+.video {
+height: 53.55vw;
+}
+#video_header{
+	display: flex;
+	margin: 5.35% 0 0 20.5%;
+}
+#video_header >h2{
+	font-size: 34px;
+	font-weight: 900;
+	color:rgb(231, 71, 60);
+	text-transform: uppercase;
+	padding:2% 2.4% 0 0% ;
+	letter-spacing: 1.4px;
+	line-height: 39px;
+}
+#video_header >img{
+	margin-top: -5px;
+	margin-left: -3px;
+}
+#video_header >p {
+	max-width: 740px;
+	font-size: 24px;
+	font-weight: 900;
+	padding:0 0 0 3.15% ;
+	letter-spacing: -0.05px;
+	line-height: 34.9px;
+}
+#red_square{
+	width: 28.9vw;
+	height: 18.49vw;
+	background: rgb(231, 76, 60);
+	margin: 4.2% 0 0 20.6%;
+}
+#black_square{
+	width: 53.55vw;
+	height: 30.75vw;
+	background: black;
+	margin: -16.8% 0 15px 22.6%;
+	position: relative;
+}
+#black_square > img {
+	margin: 23.4% 0 0 45.7%;
+}
+#black_square>p{
+	position: absolute;
+	bottom: 0.9vw;
+	right: 1.1vw;
+	width: 250px;
+	height: 25px;
+	background: rgb(231, 76, 60);
+	color: white;
+	text-transform: uppercase;
+	font-size: 13px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	letter-spacing: 6px;
+	padding-left:1px;
+}
+.training_strategy{
+	width: 100%;
+	height: 33.5vw;
+	background-color: rgb(231, 76, 60);
+}
+.training_strategy>h2{
+	max-width: 1530px;
+	font-size: 46px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	padding: 7.6% 0 0 20.5%;
+	letter-spacing: 0px;
+	line-height: 64px;
+	-webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+form {
+	display: flex;
+	justify-content: center;
+	padding: 3.5% 0 0 1.3%;
+}
+button{
+	font-family: 'RobotoCondensed';
+	width: 470px;
+	height: 111px;
+	color: rgb(231, 71, 60);
+	font-size: 46px;
+	font-weight: 700;
+	border: none;
+	margin-bottom: 15px;
+}
+button:hover{
+	cursor: pointer;
+}
+#header_rings{
+	margin: 5.4% 0 0 51.4%;
+	width: 29.2%;
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: -0.1px;
+	line-height: 34.5px;
+}
+#image_rings{
+	margin: 5.1% 0 0 33.7%;
+}
+#logotips{
+	margin: 3.3% 0 0 -10px;
+}
+#four_bonuses>ul{
+	margin: 11% 0 9.2% 20.6%;	
+}
+#four_bonuses > ul>li{
+	margin-bottom: 3%;
+	padding-bottom: 3%;
+	padding-right: 6%;
+	border-bottom: 1px solid rgb(231, 231, 231);
+	width: 75.6%;
+}
+#four_bonuses > ul>li:nth-child(1){
+	border-bottom: none;
+}
+#four_bonuses > ul>li>p{
+	padding-left: 100px;
+	padding-top: -5px;
+	font-size: 24px;
+}
+#four_bonuses > ul>li::before{
+	content: " ";
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	background: url(marker.png);
+} 
+.fitness_from_within{
+	background-color: rgb(231, 76, 60) ;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.fitness_from_within>header>p{
+	width: 50vw;
+	color: white;
+	text-transform: uppercase;
+	font-size: 46px;
+	font-weight: 600;
+	text-align: center;
+	margin: 7.7vw 0 0 1.8vw;
+	line-height: 3.4vw;
+}
+.fitness_from_within>h2{
+	margin: 4.7vw 0 0 1.6vw;
+	color: white;
+	text-transform: uppercase;
+	font-size: 106px;
+	font-weight: 600;
+}
+#three_blocks>ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 59.5vw;
+	height: 7.3vw;
+	box-shadow: 0 0 100px 0.5px rgb(190, 76, 60);
+	margin: 5.8vw 0 0 1.3vw;
+}
+#three_blocks>ul>li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 99px;
+	font-size: 46px;
+	font-weight: 700;
+	color: white;
+	padding-bottom: 7px;
+	padding-left: 5px;
+}
+#three_blocks>ul>li:nth-child(2){
+	color: black;
+	padding-left: 13px;
+}
+#two_paragraph{
+	color: white;
+	font-size: 24px;
+	width: 41vw;
+	margin: 6.2vw 16.7vw 9.5vw 0;
+	line-height: 34.55px;
+}
+#two_paragraph>p:nth-child(2){
+	margin-top: 4%;
+}
+.white_black_white>div>h2{
+	font-size: 46px;
+	text-transform: uppercase;
+	margin: 9.7vw 0 0 45.7vw;
+}
+.white_black_white>div>p{
+	font-size: 24px;
+	width: 34.05vw;
+	margin: 1.1vw 0 0 45.65vw;
+	line-height: 1.8vw;
+	-webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+.color{
+	color: rgb(231, 76, 60)
+}
+#rule_2{
+	background-color: black;
+}
+#rule_2>h2{
+	color: white;
+	padding: 6.8vw 0 0 20.4vw;
+	margin-left: 0;
+	margin-top: 5.6vw;
+}
+#rule_2>p{
+	color: white;
+	margin-left: 20.4vw;
+	padding-bottom: 5.2vw;
+}
+#rule_3{
+	margin-top: -3.5vw;
+	padding-bottom: 4.8vw;
+}
+.our_products{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(245, 245, 245);
+}
+.our_products>h2{
+	font-size: 106px;
+	text-transform: uppercase;
+	margin: 8.7vw 0 0 1.1vw;
+}
+.our_products>p{
+	font-size: 24px;
+	width: 58vw;
+	margin: 2.5vw 0 0 1.3vw;
+	line-height: 33px;
+	padding-bottom: 9vw;
+}
+.hover_party{
+	height: auto;
+}
+.scuares_wrapper{
+	display: flex;	
+	box-shadow: 0 -30px  60px 1px rgb(230, 227, 227); 
+	flex-wrap: wrap;
+}
+.hover{
+	height: 13.6vw;
+	transition: 0.5s all 0.2s ease-in-out;
+	box-shadow: -30px 0 60px 1px rgb(230, 227, 227);
+	flex-basis: 16.66%;
+}
+#content_wrapper{
+	width: 100%;
+}
+.scuare_content{
+	display: none; 
+	background-color: rgb(231, 76, 60);
+	height: 43vw;
+	width:100%;	
+	left: 0;
+	top: 13.6vw;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	color: white;
+} 
+#start_visible_scuare{
+	background-color: rgb(231, 76, 60);
+}
+#start_visible_content{
+	display: flex;
+	font-size: 24px;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding: 12.2vw 0 12vw 8px;
+}
+#start_visible_content>ul{
+	width: 27vw;
+	display: flex;
+	flex-direction: column;
+	height: 16.3vw;
+	justify-content: space-between;
+	margin-top: 2.5vw;
+}
+#start_visible_content li {
+	position: relative;
+}
+#left_part{
+	text-align: end;
+}
+#left_part{
+	margin-right: 10.5%;
+}
+#left_part>li>p::after{
+	content: " ";
+	position: absolute;
+	right: -70px;
+	top: 3px;
+	width: 56px;
+	height: 56px;
+	background: url(before-after.png);
+}
+#right_part>li>p::before{
+	content: " ";
+	position: absolute;
+	left: -88px;
+	top:5px;
+	width: 56px;
+	height: 56px;
+	background: url(before-after.png);
+}
+.hover:hover{
+	background-color: rgb(231, 76, 60);
+	box-shadow:  -30px 0 60px 1px white;
+	z-index: 100;
+}
+.scuare_content:hover{
+	display: flex;
+}
+.hover:nth-child(1):hover~article #start_visible_content{
+	display: none;
+}
+.scuare_content:nth-child(1):hover~#start_visible_content{
+	display: none;
+}
+.hover:nth-child(1):hover  ~ article > .scuare_content:nth-child(1){
+	display: flex;
+	z-index: 600;
+}
+/* .scuares_wrapper:hover ~ #start_visible_scuare{
+	background-color: white;
+} */
+
+
+
+
+
+.three_step{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#step_header{
+	margin: 6.2vw 0 0 1.7vw;
+}
+#step_header>h1{
+	font-size: 106px;
+	text-transform: uppercase;
+	width: 50vw;
+	text-align: center;
+	line-height: 115px;
+}
+#step_header>p{
+	font-size: 24px;
+	width:35vw;
+	text-align: center;
+	margin: 17px 0 0 7.5vw;
+}
+#step_header>h1>span{
+	margin-left: 23px;
+	color: rgb(231, 76, 60);
+}
+#step_wrapper{
+	display: flex;
+	width: 61vw;
+	margin: 7.2vw 0 8.8vw 5vw;
+}
+.step_black_circle{
+	background-color: black;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	margin-left: 5px;
+}
+.step_h3{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 46px;
+	margin-right: 4.3vw;
+	margin-top: 1.9vw;
+}
+.step_color{
+	color: rgb(231, 76, 60);
+}
+.step_text{
+	font-size: 24px;
+	text-align: center;
+	width: 92%;
+	margin-left: -19px;
+	margin-top: 1vw;
+	line-height: 34px;
+}
+.get_in_shape{
+	height: auto;
+	background-color: rgb(231, 76, 60);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.get_in_shape h2{
+	text-transform: uppercase;
+	font-size: 106px;
+	margin: 5.9vw 0 0 1.5vw;
+}
+.get_in_shape>p:nth-child(2){
+	font-size: 24px;
+	margin: 12px 0 0 20px;
+	letter-spacing: 1px;
+}
+.get_in_shape>p:nth-child(3){
+	text-transform: uppercase;
+	font-size: 46px;
+	margin: 5.5vw 0 7.55vw 20px;
+	font-weight: 700;
+}
+footer ul{
+	margin: 2.5vw auto;
+	padding-left: 24px;
+	font-family: 'RobotoCondensed';
+	display: flex;
+	text-transform: uppercase;
+	justify-content: space-between;
+	font-size: 18px;
+	width: 26.5vw;
+}
+footer div{
+	display: flex;
+	justify-content: center;
+}
+footer span{
+	font-size: 12px;
+	margin: -18px 0 0 25px;
+}
+@media screen and (max-width:1800px) {
+	#Tony_Horton {
+		background: url(Layer.png) center / cover no-repeat;	
+		height: 700px;
+	}
+	#three_white_blocks{
+		max-width: 70%;
+		margin: -10% 0 0 15%;
+	}
+	#three_white_blocks>div>div>p:nth-child(1){
+		font-size: 15px;
+		line-height: 20px;
+	} 
+	.video{
+		height: auto;
+	}
+	.training_strategy{
+		height: auto;
+	}
+	.training_strategy>h2{
+		font-size: 30px;	
+		padding:  5% 0 0 10%;
+		line-height: 35px;
+	}
+	#image_rings >div >img{
+		width: 40vw;
+	}
+	.fitness_from_within>header>p{
+		width: 70vw;
+		font-size: 35px;
+	}
+	.fitness_from_within>h2{
+		font-size: 60px;
+		
+	}
+	#three_blocks>ul{
+		width: 75vw;
+	}
+	#three_blocks>ul>li{
+		font-size: 35px;
+	}
+	#two_paragraph{
+		font-size: 24px;
+		width: 80vw;
+		margin: 3vw 10vw;
+	}
+	.white_black_white>div>h2{
+		font-size: 35px;
+		padding-top: 4vw;
+	}
+	.white_black_white>div>p{
+		width: 50vw;
+		font-size: 20px ;
+	}
+	.white_black_white>div{
+		height: auto;
+	}
+	.our_products>h2{
+		font-size: 50px;
+		margin-top: 5vw;
+	}
+	.our_products>p{
+		font-size: 20px;
+		width: 70vw;
+		line-height: 25px;
+		padding-bottom: 5vw;
+	}
+	/* #start_visible_content{
+		font-size: 20px;
+		padding: 3vw 0 5vw 8px;
+	}
+	#start_visible_content>ul{
+		width: 35vw;
+	}
+	#start_visible_content li {
+		margin: 3% auto;
+	} */
+	#start_visible_content{
+		height: auto;
+	} 
+	#start_visible_content>ul{
+		height: auto;
+	}
+	#step_header>h1{
+		font-size: 70px;
+		line-height: 70px;
+	}
+	#step_wrapper{
+		width: 75vw;
+	}
+	.step_black_circle{
+		width: 15vw;
+		height: 15vw;
+		margin: 0 auto;
+	}
+	.step_h3{
+		margin-right: 0;
+		margin-top: 0;
+	}
+	.step_text{
+		margin: 0 auto;
+	}
+	footer ul{
+		margin: 1vw auto;
+		width: 45vw;
+	}
+	footer span{
+		margin: 1vw auto;
+	}
+}
+@media screen and (max-width:1024px) {
+	#logo {
+		margin: 12px 50px 0 50px;
+		}
+	#Tony_Horton {
+		height: 500px;
+		border: 2px solid red;
+	}
+	.rings{
+		border: 2px solid red;
+	}
+	#rule_2{
+		border: 2px solid red;
+	}
+	.three_step{
+		border: 2px solid red;
+	}
+	#three_white_blocks>div > img{
+		width: 50px;
+		height: 50px;	
+	} 
+	#three_white_blocks>div>div>p:nth-child(1){
+		font-size: 11px;
+	} 
+	#three_white_blocks>div>div>p:nth-child(2){
+		font-size: 10px;
+	} 
+	#video_header{
+		margin-left: 5%;
+	}
+	#video_header >h2{
+		font-size: 20px;
+		line-height: 20px;
+	}
+	#video_header >p {
+		max-width: 50vw;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	#black_square > img {
+		width: 10%;
+	}
+	#black_square>p{
+		width: 40%;
+		font-size: 10px;
+		letter-spacing: 0px;
+	}
+	.training_strategy>h2{
+		font-size: 20px;
+	}
+	button{
+		width: 40%;
+		height: 7vw;
+		font-size: 25px;
+	}
+	#header_rings{
+		width: 60%;
+		font-size: 18px;
+		line-height: 25px;
+		margin: 3vw auto;
+	}
+	#image_rings{
+		margin-left: 30%;
+	}
+	#image_rings >div:nth-child(2) >img{
+		width: 60vw;
+		margin-left: -15%;
+	}
+	#four_bonuses > ul>li{
+		width: 100%;
+	}
+	#four_bonuses>ul{
+		margin: 15px 3%;	
+	}
+	#four_bonuses > ul>li>p{
+	
+		font-size: 18px;
+	}
+	.fitness_from_within>header>p{
+		width: 85vw;
+		font-size: 25px;
+	}
+	.fitness_from_within>h2{
+		font-size: 40px;
+	}
+	#three_blocks>ul{
+		width: 75vw;
+	}
+	#three_blocks>ul>li{
+		font-size: 23px;
+	}
+	#two_paragraph{
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.white_black_white>div>h2{
+		font-size: 25px;
+		padding-top: 2vw;
+		margin: 3% 15%;
+	}
+	.white_black_white>div>p{
+		width: 70vw;
+		font-size: 18px;
+		line-height: 20px;
+		margin: 3% auto;
+	}
+	.our_products>h2{
+		font-size: 30px;
+		margin: 1vw auto;
+	}
+	.our_products>p{
+		font-size: 20px;
+		width: 90vw;
+		line-height: 20px;
+		padding-bottom: 0;
+		margin: 1vw auto;
+	}
+	 #start_visible_content{
+		padding: 1vw 0 25% 8px;
+	}
+	#start_visible_content li {
+		font-size: 18px;
+	}
+	 #left_part>li>p::after{
+		right: -60px;
+		background-size: 50px 50px;
+		background-repeat: no-repeat;
+	} 
+	#right_part>li>p::before{
+		left: -55px;
+		top:3px;
+		background-size: 50px 50px;
+		background-repeat: no-repeat;
+	} 
+	#step_header{
+		margin-top: 3vw;
+	}
+	#step_header>h1{
+		font-size: 40px;
+		width: 70vw;
+		line-height: 40px;
+	}
+	#step_header>p{
+		font-size: 20px;
+		width: 70vw;
+		margin-left:0;
+	}
+	#step_wrapper{
+		width: 90vw;
+		margin: 3vw auto;
+	}
+	.step_h3{
+		font-size: 35px;
+	}
+	.step_text{
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.get_in_shape h2{
+		font-size: 60px;
+		margin-top: 2vw;
+	}
+	.get_in_shape>p:nth-child(3){
+		font-size: 30px;
+		margin-bottom: 3vw;
+	}
+	footer ul{
+		width: 70vw;
+		font-size: 15px;
+	}
+}
+@media screen and (max-width:640px) {
+	#Tony_Horton {
+		height: 50vw;
+		border: 2px solid green;
+		background: url(Layer.png) center / 150% 100vw no-repeat;	
+	}
+	.rings{
+		border: 2px solid green;
+	}
+	#rule_2{
+		border: 2px solid green;
+	}
+	.three_step{
+		border: 2px solid green;
+	}
+	#logo {
+		margin: 0 auto;
+	}
+	#IconForLitleViewport{
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		width: 150px;
+		height: 50px;
+		margin-left: 10vw;
+	}
+	#main_menu{
+		display: none;	
+	}
+	#IconForLitleViewport:hover ~ #menu_wrapper > #main_menu{
+		cursor: pointer;
+		display: inline;
+	}
+	#main_menu:hover{
+		display: inline;
+	}
+	#main_menu > li {
+		min-height: 20px;
+	}
+	#icon_menu{
+		width: 45px;
+		height: 45px;
+	}
+	#three_white_blocks>div>div>p:nth-child(1){
+		line-height: 10px;
+	} 
+	#three_white_blocks>div{
+		display: inline;
+	}
+	#left>div{
+		margin: 5% 0 0 9%;
+	}
+	#left > img{
+		width: 50px;
+		height: px;
+		margin: 10% 0 10% 12.5%;
+		/* z-index: 0; */
+	} 
+	#right > img{
+		width: 50px;
+		height: 50px;
+		margin: 5% 0 0 5%;
+	}
+	#right>div>p:nth-child(1){
+		margin: 10% 0 0 12%;
+	} 
+	.training_strategy>h2{
+		font-size: 15px;
+		line-height: 20px;
+	}
+	button{
+		width: 35%;
+		height: 5vw;
+		font-size: 16px;
+	}
+	#header_rings{
+		font-size: 15px;
+		line-height: 18px;
+	}
+	#image_rings >div:nth-child(2) >img{
+		width: 90vw;
+		margin-left: -40%;
+	}
+	#four_bonuses > ul>li>p{
+		padding-left: 55px;
+	}
+	#four_bonuses > ul>li::before{
+		background-size: 50px 50px;
+		background-repeat: no-repeat;
+	} 
+	.fitness_from_within>header>p{
+		line-height: 25px;
+		font-size: 22px;
+	}
+	.fitness_from_within>h2{
+		font-size: 30px;
+	}
+	#three_blocks>ul{
+		width: 90vw;
+	}
+	#three_blocks>ul>li{
+		font-size: 18px;
+		text-align: center;
+	}
+	#two_paragraph{
+		font-size: 17px;
+		line-height: 20px;
+	}
+	.white_black_white>div>h2{
+		font-size: 20px;
+	}
+	.white_black_white>div>p{
+		width: 90vw;
+		font-size: 16px;
+	}
+	#rule_2>h2{
+		padding: 2vw 0 0 5vw;
+	}
+	#rule_2>p{
+		width: 80vw;
+		margin-left: 5vw;
+		padding-bottom: 3vw;
+	}
+	.our_products>h2{
+		font-size: 22px;
+		margin-bottom: 0;
+	}
+	.our_products>p{
+		font-size: 18px;
+	}
+	#start_visible_content{
+		padding: 1vw 0 10% 8px;
+		display: block;
+	}
+	.scuare_content{
+		height: 130vw;
+	}
+	#start_visible_content>ul:nth-child(2) {
+		margin: 40vw 0 25% 10vw;
+  }
+	#start_visible_content li {
+		font-size: 16px;
+		width: 70vw;
+	}
+	
+	#left_part>li>p::after{
+		right: -60px;
+		background-size: 25px 25px;
+	
+	}
+	#right_part>li>p::before{
+		left: -27px;
+		top:3px;
+		background-size: 25px 25px;
+		
+	} 
+	#step_header>h1{
+		font-size: 25px;
+		width: 85vw;
+		line-height: 30px;
+	}
+	#step_header>p{
+		font-size: 17px;
+		width: 85vw;
+	}
+	.step_h3{
+		font-size: 19px;
+	}
+	.step_text{
+		width: 98%;
+		font-size: 17px;
+		line-height: 20px;
+	}
+	.get_in_shape h2{
+		font-size: 30px;
+	}
+	.get_in_shape>p:nth-child(2){
+		font-size: 18px;
+	}
+	footer ul{
+		width: 90vw;
+		font-size: 13px;
+		justify-content: space-around;
+	}
+}
+@media screen and (max-width:320px) {
+	#IconForLitleViewport{
+		margin-left: 0px;
+	}
+	#Tony_Horton {
+		border: 2px solid blue;
+	}
+	#video_header>h2{
+		margin-top: 20%;
+	}
+	.rings{
+		border: 2px solid blue;
+	}
+	#rule_2{
+		border: 2px solid blue;
+	}
+	.three_step{
+		border: 2px solid blue;
+	}
+	button{
+		width: 35%;
+		height: 5vw;
+		font-size: 12px;
+	}
+	#four_bonuses > ul>li>p{
+		font-size: 15px;
+	}
+	.white_black_white>div>h2{
+		font-size: 18px;
+		margin: 1% 3%;
+	}
+}
